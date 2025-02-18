@@ -6,8 +6,21 @@
     /*border-style: dashed;*/
 }
 
+body {
+    text-align: center;
+}
+
 h1 {
     color: red;
+
+}
+
+#white_bulb {
+    padding-left: 2rem;
+}
+
+#yellow_bulb {
+    padding-left: 2rem;
 
 }
 

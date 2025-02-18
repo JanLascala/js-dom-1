@@ -20,6 +20,12 @@ powerButton.addEventListener('click', function () {
 
     whiteBulb.classList.toggle('block')
     yelloBulb.classList.toggle('lightup')
+    if (powerButton.innerText === "turn ON") {
+        powerButton.innerText = "turn OFF"
+    } else {
+        powerButton.innerText = "turn ON"
+    }
+
 
 
 })
