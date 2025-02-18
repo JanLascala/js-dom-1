@@ -15,13 +15,17 @@ h1 {
 
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 #white_bulb {
-    padding-left: 2rem;
+    margin-right: -2rem;
 }
 
 #yellow_bulb {
-    padding-left: 2rem;
-
+    margin-left: -3rem;
 }
 
 .block {
